@@ -1,7 +1,40 @@
 {
   "categories": [
     {
-      "name": "ML / AI",
+      "name": "Agentic AI",
+      "skills": [
+        {
+          "name": "LangChain",
+          "icon": ""
+        },
+        {
+          "name": "LangGraph",
+          "icon": ""
+        },
+        {
+          "name": "Tool Calling",
+          "icon": ""
+        },
+        {
+          "name": "Model Routing",
+          "icon": ""
+        },
+        {
+          "name": "Agent Memory",
+          "icon": ""
+        },
+        {
+          "name": "RAG",
+          "icon": ""
+        },
+        {
+          "name": "Graph RAG",
+          "icon": ""
+        }
+      ]
+    },
+    {
+      "name": "Machine Learning",
       "skills": [
         {
           "name": "PyTorch",
@@ -17,10 +50,6 @@
         },
         {
           "name": "Hugging Face Transformers",
-          "icon": ""
-        },
-        {
-          "name": "LangChain",
           "icon": ""
         },
         {
@@ -51,7 +80,7 @@
       ]
     },
     {
-      "name": "Distributed Systems",
+      "name": "Cloud / Robotics",
       "skills": [
         {
           "name": "AWS",

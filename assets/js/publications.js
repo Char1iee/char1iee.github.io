@@ -72,8 +72,8 @@ function renderPublications() {
             const links = [];
             
             if (pub.pdf) links.push(`<a href="${pub.pdf}" class="publication-link" target="_blank" rel="noopener noreferrer">PDF</a>`);
-            if (pub.arxiv) links.push(`<a href="${pub.arxiv}" class="publication-link" target="_blank" rel="noopener noreferrer">PDF</a>`);
-            if (pub.doi) links.push(`<a href="https://doi.org/${pub.doi}" class="publication-link" target="_blank" rel="noopener noreferrer">PDF</a>`);
+            if (pub.arxiv) links.push(`<a href="${pub.arxiv}" class="publication-link" target="_blank" rel="noopener noreferrer">arXiv</a>`);
+            if (pub.doi) links.push(`<a href="https://doi.org/${pub.doi}" class="publication-link" target="_blank" rel="noopener noreferrer">Publisher</a>`);
             
             const linksHtml = links.length > 0 ? ` ${links.join(' ')}` : '';
             

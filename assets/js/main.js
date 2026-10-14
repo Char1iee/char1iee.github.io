@@ -195,7 +195,7 @@ function populateExperiencePage() {
                     <h3 class="timeline-title">${edu.degree}</h3>
                     <p class="timeline-company">${formatAffiliationDate(edu.institution, edu.duration)}</p>
                     ${edu.gpa ? `<p style="color: var(--text-primary);">GPA: ${edu.gpa}</p>` : ''}
-                    ${edu.coursework ? `
+                    ${edu.coursework?.length > 0 ? `
                         <div style="margin-top: 1rem;">
                             <strong>Relevant Coursework:</strong>
                             <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.5rem;">

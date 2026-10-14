@@ -1,17 +1,28 @@
 {
   "work": [
     {
+      "title": "AI R&D Intern",
+      "company": "PTC Inc.",
+      "duration": "Jun 2026 – Aug 2026",
+      "description": "Developed enterprise-agent memory capabilities for PTC Orbit Agent.",
+      "responsibilities": [
+        "Developed memory capabilities for PTC Orbit Agent to personalize context and extract user preferences across enterprise AI workflows, enabling more consistent and context-aware responses.",
+        "Evaluated vector-based and graph-based memory systems, including Mem0, Supermemory, Graphiti, Cognee, AWS AgentCore Memory, and Azure Foundry Memory, comparing architectures, capabilities, and tradeoffs.",
+        "Designed ingestion, filtering, consolidation, and retrieval strategies to retain task-relevant context while minimizing irrelevant or sensitive memory storage, with a focus on memory quality."
+      ],
+      "technologies": ["Agent Memory", "Vector Memory", "Graph Memory", "Mem0", "Graphiti", "AWS AgentCore Memory", "Azure Foundry Memory"]
+    },
+    {
       "title": "Founding Member & Machine Learning Engineer",
       "company": "Unifinity AI Inc.",
       "duration": "Apr 2025 – Present",
-      "description": "Developing LLM-powered content generation systems and multi-agent AI pipelines.",
+      "description": "Building multi-agent AI systems, graph RAG, and multimodal generation workflows.",
       "responsibilities": [
-        "Developed and fine-tuned LLMs and diffusion models via Replicate to generate personalized social media content.",
-        "Designed multi-agent pipelines with LangChain for prompt orchestration and model coordination, enabling scalable content generation.",
-        "Built pipelines to analyze user data and generate tailored marketing strategies, improving engagement metrics and ROI.",
-        "Implemented RAG systems including graph-based RAG with Neo4j, integrating user interactions to deliver accurate personalized responses."
+        "Built LangChain and LangGraph multi-agent pipelines for prompt orchestration, model routing, tool coordination, state management, and execution across modular AI-agent workflows.",
+        "Implemented Neo4j-based graph RAG that integrates prior user interactions, entity relationships, and user-context memory into personalized responses through context-aware retrieval.",
+        "Developed multimodal generation workflows with LLMs, diffusion models, Replicate, OpenAI APIs, PiAPI, Stable Diffusion, and LoRA fine-tuning across text, image, and video generation tasks."
       ],
-      "technologies": ["Python", "LangChain", "OpenAI API", "Stable Diffusion", "Neo4j", "RAG", "LLMs"]
+      "technologies": ["Python", "LangChain", "LangGraph", "Neo4j", "Graph RAG", "OpenAI API", "Stable Diffusion", "LoRA"]
     },
     {
       "title": "Data Analyst Intern",
@@ -42,12 +53,12 @@
     {
       "degree": "Master's Degree in Computer Science",
       "institution": "University of California, Los Angeles",
-      "duration": "Sep 2025 – Jun 2027",
-      "gpa": "",
+      "duration": "Sep 2025 – Dec 2026",
+      "gpa": "3.89/4.00",
       "coursework": []
     },
     {
-      "degree": "Bachelor's Degree in Computer Science",
+      "degree": "B.S. in Computer Science",
       "institution": "University of California, San Diego",
       "duration": "Sep 2023 – Jun 2025",
       "gpa": "3.97/4.00",
@@ -66,7 +77,7 @@
       "title": "Research Assistant",
       "institution": "UC San Diego SEElab (Supervised by Dr. Onat Gungor and Prof. Tajana Rosing)",
       "duration": "Oct 2023 – Jun 2025",
-      "description": "Conducted research on machine learning-based intrusion detection systems for IoT security, focusing on adversarial robustness, anomaly detection, and continual learning.",
+      "description": "Conducted research on machine learning-based intrusion detection for IoT security, with a focus on adversarial robustness, self-supervised anomaly detection, and continual learning.",
       "projects": [
         "SAGE: Sample-Aware Guarding Engine for Robust Intrusion Detection Against Adversarial Attacks",
         "CITADEL: Continual Anomaly Detection for Enhanced Learning in IoT Intrusion Detection",

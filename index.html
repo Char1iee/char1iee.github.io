@@ -1,40 +1,98 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="A rose, gathered from a thousand little lights." />
-    <title>For Delaney</title>
-    <link rel="stylesheet" href="qixi.css" />
-  </head>
-  <body>
-    <audio id="love-song" src="bg_music.mp3" loop preload="auto"></audio>
-    <button id="music-control" class="music-control" type="button" aria-label="Play our song" aria-pressed="false"><span id="music-icon" aria-hidden="true">▶</span></button>
-    <main>
-      <section class="scene">
-        <canvas id="bouquet" aria-label="A softly swirling particle rose"></canvas>
-        <section class="message" aria-label="Dedication">
-          <p class="eyebrow">A thousand little moments</p>
-          <h1>For Delaney</h1>
-          <p>A rose, gathered from a thousand little lights.</p>
-        </section>
-      </section>
-      <section class="memories" aria-labelledby="memories-title">
-        <p class="eyebrow">Our little gallery</p>
-        <h2 id="memories-title">Moments with you</h2>
-        <p class="memory-intro">Every picture is one more reason I am grateful that you are in my life.</p>
-        <div class="photo-grid">
-          <figure class="photo-card photo-card--tall"><img src="nosubject/IMG_5088.JPG" alt="Delaney and Charlie smiling at the beach" loading="eager"></figure>
-          <figure class="photo-card"><img src="nosubject/IMG_4248.JPG" alt="A handwritten love note for Delaney" loading="lazy"></figure>
-          <figure class="photo-card"><img src="nosubject/IMG_5152.JPG" alt="Delaney and Charlie embracing at the beach" loading="lazy"></figure>
-          <figure class="photo-card photo-card--wide"><img src="nosubject/IMG_5203.JPG" alt="Delaney and Charlie sharing a sunny moment" loading="lazy"></figure>
-          <figure class="photo-card"><img src="nosubject/IMG_5116.JPG" alt="Delaney and Charlie together at dinner" loading="lazy"></figure>
-          <figure class="photo-card"><img src="nosubject/IMG_5165.JPG" alt="A close selfie of Delaney and Charlie" loading="lazy"></figure>
-          <figure class="photo-card photo-card--wide"><img src="nosubject/Live_20260627234101202.JPG" alt="Delaney and Charlie at the beach" loading="lazy"></figure>
-          <figure class="photo-card"><img src="nosubject/dji_export_20260516_photo_0009.JPG" alt="Delaney and Charlie smiling together outdoors" loading="lazy"></figure>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal webpage for Zhengli Shang">
+    <title>About | Zhengli Shang</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link active">About</a></li>
+                <li><a href="experience.html" class="nav-link">Experience</a></li>
+                <li><a href="projects.html" class="nav-link">Projects</a></li>
+                <li><a href="publications.html" class="nav-link">Publications</a></li>
+                <li><a href="garden/index.html" class="nav-link garden-link">Garden</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </div>
-      </section>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-name">Zhengli Shang</h1>
+                    <p class="hero-role">UCLA MSCS Student</p>
+                    <p class="hero-tagline">Data Science, Machine Learning, AI Software Engineering, Agent Building</p>
+                    <div class="skills-inline" id="skillsContainer">
+                        <!-- Skills will be loaded from skills.json -->
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="assets/images/headshot.jpg" alt="Zhengli Shang" class="profile-img" id="profileImage">
+                </div>
+            </div>
+        </section>
+
+        <!-- Quick Intro -->
+        <section class="intro-section">
+            <p class="intro-text" id="introText">
+                Quick intro (2-3 sentences about your focus/field). This section will be populated from config.json.
+            </p>
+        </section>
+
+        <!-- Education -->
+        <section class="section">
+            <h2 class="section-title">Education</h2>
+            <div class="education-container" id="educationContainer">
+                <!-- Education items will be loaded from experience.json -->
+            </div>
+        </section>
+
+        <!-- Work Experience Highlight -->
+        <section class="section">
+            <div class="section-header">
+                <h2 class="section-title">Work Experience</h2>
+                <a href="experience.html" class="section-link" id="workExperienceLink">View all experience →</a>
+            </div>
+            <div class="highlight-container" id="workExperienceHighlight">
+                <!-- Work experience highlights will be loaded from experience.json -->
+            </div>
+        </section>
+
+        <!-- Projects Highlight -->
+        <section class="section">
+            <div class="section-header">
+                <h2 class="section-title">Projects</h2>
+                <a href="projects.html" class="section-link" id="projectsLink">View all projects →</a>
+            </div>
+            <div class="highlight-container" id="projectsHighlight">
+                <!-- Project highlights will be loaded from projects.json -->
+            </div>
+        </section>
+
+        <!-- Contact Icons -->
+        <section class="section contact-section">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-icons" id="contactIcons">
+                <!-- Contact icons will be loaded from config.json -->
+            </div>
+        </section>
     </main>
-    <script src="qixi.js"></script>
-  </body>
+
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/navigation.js"></script>
+</body>
 </html>

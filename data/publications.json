@@ -2,30 +2,30 @@
   {
     "title": "SAGE: Sample-Aware Guarding Engine for Robust Intrusion Detection Against Adversarial Attacks",
     "authors": "Jing Chen, Onat Gungor, Zhengli Shang, and Tajana Rosing",
-    "venue": "IEEE Transactions on Information Forensics and Security (TIFS)",
-    "date": "2025-06-01",
+    "venue": "Computer Networks, Volume 289, Article 112784",
+    "date": "2026-09-01",
     "category": "journal",
-    "abstract": "Proposed SAGE, a sample-aware defense engine that integrates active learning with targeted data reduction to select the most effective defense against adversarial attacks in ML-based intrusion detection. Built a two-level defense selection pipeline that identifies highly informative samples and generates optimal defense labels for training a second-stage meta-learner. Achieved up to 201% F1-score improvement over state-of-the-art defenses across multiple IoT IDS datasets while reducing computational cost by up to 29× and narrowing the gap to the Oracle to just 3.8%.",
-    "pdf": "",
-    "arxiv": "https://arxiv.org/abs/2509.08091",
-    "doi": "",
+    "abstract": "SAGE is a sample-aware defense engine that combines active learning with targeted data reduction to select effective defenses against adversarial attacks in machine-learning intrusion detection. Its two-level pipeline identifies informative samples and uses their optimal-defense labels to train a second-stage selector. Across multiple IoT intrusion-detection datasets, SAGE achieved an average 201% F1-score improvement over state-of-the-art defenses, reduced computational overhead by up to 29×, and narrowed the gap to the Oracle to 3.8%.",
+    "pdf": "papers/SAGE.pdf",
+    "arxiv": "",
+    "doi": "10.1016/j.comnet.2026.112784",
     "github": "",
     "website": "",
-    "status": "Under submission"
+    "status": ""
   },
   {
     "title": "CITADEL: Continual Anomaly Detection for Enhanced Learning in IoT Intrusion Detection",
-    "authors": "Elvin Li, Onat Gungor, Zhengli Shang, and Tajana Rosing",
-    "venue": "IEEE Internet of Things Journal (IoTJ)",
-    "date": "2025-06-01",
+    "authors": "Elvin Li, Onat Gungor, Zhengli Shang, Jing Chen, and Tajana Rosing",
+    "venue": "Computer Networks, Volume 285, Article 112398",
+    "date": "2026-07-01",
     "category": "journal",
-    "abstract": "Developed a self-supervised continual learning framework for IoT intrusion detection that learns robust benign traffic representations while retaining long term knowledge via optimized memory consolidation. Integrated a tabular to image transformation module and a memory aware masked autoencoder (MAE) to enable anomaly detection without labeled attack data. Designed a novelty detection component to adapt to emerging cyber threats while retaining detection of known attacks, achieving up to 72.9% improvement over a VAE based lifelong anomaly detector (VLAD) on multiple IoT datasets.",
-    "pdf": "",
-    "arxiv": "https://arxiv.org/abs/2508.19450",
-    "doi": "",
+    "abstract": "CITADEL is a self-supervised continual-learning framework for IoT intrusion detection. It transforms tabular traffic into visual representations, uses a memory-aware masked autoencoder to learn from benign data without attack labels, and applies novelty detection to recognize anomalous traffic. Across multiple intrusion datasets, CITADEL improved key detection and retention metrics by up to 72.9% over the VAE-based lifelong anomaly detector (VLAD).",
+    "pdf": "papers/CITADEL.pdf",
+    "arxiv": "",
+    "doi": "10.1016/j.comnet.2026.112398",
     "github": "",
     "website": "",
-    "status": "Under submission"
+    "status": ""
   },
   {
     "title": "DYNAMITE: Dynamic Defense Selection for Enhancing Machine Learning-based Intrusion Detection Against Adversarial Attacks",
@@ -39,7 +39,7 @@
     "doi": "",
     "github": "",
     "website": "",
-    "status": "Accepted (Best Paper Award)"
+    "status": "Best Paper Award"
   },
   {
     "title": "SAFE: Self-Supervised Anomaly Detection Framework for Intrusion Detection",
@@ -53,7 +53,7 @@
     "doi": "",
     "github": "",
     "website": "",
-    "status": "Accepted"
+    "status": ""
   },
   {
     "title": "Rigorous Evaluation of Machine Learning-Based Intrusion Detection Against Adversarial Attacks",
@@ -67,6 +67,6 @@
     "doi": "10.1109/CSR.2024.10679443",
     "github": "",
     "website": "",
-    "status": "Accepted"
+    "status": ""
   }
 ]

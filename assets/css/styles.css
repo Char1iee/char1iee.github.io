@@ -90,6 +90,22 @@ body {
     background-color: var(--primary-color);
 }
 
+/* A quiet, optional path to the personal site. */
+.garden-link {
+    margin-left: 0.5rem;
+    color: var(--text-secondary);
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    opacity: 0.72;
+}
+
+.garden-link:hover {
+    color: var(--text-primary);
+    opacity: 1;
+}
+
 .hamburger {
     display: none;
     flex-direction: column;
@@ -668,11 +684,11 @@ body {
 /* ===== Timeline (Experience) ===== */
 .timeline {
     position: relative;
-    padding-left: 2rem;
+    padding-left: 0;
 }
 
 .timeline::before {
-    content: '';
+    content: none;
     position: absolute;
     left: 0;
     top: 0;
@@ -684,11 +700,11 @@ body {
 .timeline-item {
     position: relative;
     margin-bottom: 2rem;
-    padding-left: 2rem;
+    padding-left: 0;
 }
 
 .timeline-item::before {
-    content: '';
+    content: none;
     position: absolute;
     left: -1.5rem;
     top: 0.5rem;
@@ -1026,3 +1042,22 @@ body {
     }
 }
 
+.site-footer {
+    margin: 2rem auto 0;
+    max-width: 1200px;
+    padding: 1.5rem 2rem 2.5rem;
+    text-align: right;
+}
+
+.site-footer a {
+    color: var(--text-secondary);
+    font-size: 0.8rem;
+    text-decoration: none;
+}
+
+.site-footer a:hover,
+.site-footer a:focus-visible {
+    color: var(--accent-color);
+    text-decoration: underline;
+    text-underline-offset: 0.2rem;
+}

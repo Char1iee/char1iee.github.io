@@ -1,0 +1,48 @@
+{
+  "name": "Zhengli Shang",
+  "role": "M.S. Computer Science at UCLA",
+  "tagline": "Agentic AI, Machine Learning, and AI Software Engineering",
+  "intro": "I am a Master's student in Computer Science at UCLA with experience building agentic AI systems, personalized memory workflows, graph RAG, and multimodal generation pipelines. I am a Founding Member and Machine Learning Engineer at Unifinity AI Inc. My research explores robust intrusion detection and continual learning for IoT security.",
+  "skills": {
+    "categories": [
+      {
+        "name": "Agentic AI",
+        "skills": ["LangChain", "LangGraph", "Tool Calling", "Model Routing", "Agent Memory", "RAG", "Graph RAG"]
+      },
+      {
+        "name": "Machine Learning",
+        "skills": ["PyTorch", "TensorFlow", "scikit-learn", "Hugging Face Transformers", "Continual Learning"]
+      },
+      {
+        "name": "Software Development",
+        "skills": ["Git", "CI/CD", "Object Oriented Design", "Agile practices"]
+      },
+      {
+        "name": "Cloud / Robotics",
+        "skills": ["AWS", "ROS / ROS2", "ros1_bridge"]
+      }
+    ]
+  },
+  "contact": [
+    {
+      "name": "Email",
+      "url": "mailto:charlieshang1@gmail.com",
+      "icon": ""
+    },
+    {
+      "name": "GitHub", 
+      "url": "https://github.com/Char1iee",
+      "icon": ""
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://linkedin.com/in/charlie-shang1",
+      "icon": ""
+    },
+    {
+      "name": "Google Scholar",
+      "url": "https://scholar.google.com/citations?user=MaujhpQAAAAJ&hl=en",
+      "icon": ""
+    }
+  ]
+}

@@ -7,7 +7,7 @@
     "features": [
       "Integrated active learning with targeted data reduction to select optimal defenses against adversarial attacks.",
       "Built two-level defense selection pipeline identifying highly informative samples for meta-learner training.",
-      "Achieved 201% F1-score improvement over state-of-the-art defenses with 29× computational cost reduction. Paper under review by IEEE TIFS."
+      "Achieved an average 201% F1-score improvement over state-of-the-art defenses, reduced computational overhead by up to 29×, and narrowed the performance gap to the Oracle to 3.8%."
     ],
     "supervisor": "Prof. Tajana Rosing",
     "link": "https://arxiv.org/abs/2509.08091",
@@ -25,7 +25,7 @@
     "features": [
       "Developed self-supervised continual learning framework learning robust benign traffic representations with optimized memory consolidation.",
       "Integrated tabular-to-image transformation and memory-aware MAE enabling anomaly detection without labeled attack data.",
-      "Designed novelty detection component adapting to emerging threats while retaining known attack detection, achieving 72.9% improvement over VLAD. Paper under review by IEEE IoTJ."
+      "Designed a novelty-detection component that adapts to emerging threats while retaining detection of known attacks, achieving up to a 72.9% improvement over the VAE-based lifelong anomaly detector (VLAD)."
     ],
     "supervisor": "Prof. Tajana Rosing",
     "link": "https://arxiv.org/abs/2508.19450",
