@@ -88,5 +88,59 @@
     "caseStudy": "",
     "image": "",
     "date": "Oct 2023 – Jun 2024"
+  },
+  {
+    "title": "Scheduling Simulator",
+    "description": "Interactive CPU scheduling simulator for comparing policy tradeoffs across batch, interactive, and mixed workloads.",
+    "category": "coursework",
+    "technologies": ["Python", "Streamlit", "Matplotlib", "Workload Simulation"],
+    "features": [
+      "Implemented and evaluated six scheduling policies: Round Robin, SJF, SRTF, Priority with Aging, Lottery, and Multi-Level Feedback Queue.",
+      "Built workload generators and a comparison pipeline measuring turnaround time, response time, tail latency, and starvation.",
+      "Created a Streamlit interface for uploading custom CSV or JSON workloads, visualizing results, and exporting metrics."
+    ],
+    "supervisor": "",
+    "link": "",
+    "github": "https://github.com/Char1iee/Scheduling-Simulator",
+    "demo": "",
+    "caseStudy": "",
+    "image": "",
+    "date": ""
+  },
+  {
+    "title": "Weather Trend Forecasting",
+    "description": "End-to-end weather trend forecasting and anomaly analysis using a global daily-weather dataset.",
+    "category": "coursework",
+    "technologies": ["Python", "Pandas", "scikit-learn", "XGBoost", "Isolation Forest"],
+    "features": [
+      "Cleaned and analyzed 125,000+ weather records spanning temperature, precipitation, wind, pressure, humidity, and air-quality signals.",
+      "Compared regression, tree-based, and ensemble forecasting approaches using time-aware validation and lagged weather features.",
+      "Applied Isolation Forest and Local Outlier Factor to identify unusual weather records, then explored spatial and climate patterns."
+    ],
+    "supervisor": "",
+    "link": "",
+    "github": "https://github.com/Char1iee/Weather-Trend-Forecasting",
+    "demo": "",
+    "caseStudy": "",
+    "image": "",
+    "date": ""
+  },
+  {
+    "title": "NBA Odds Analysis",
+    "description": "Deep-learning study of NBA betting-line variables and scores using historical game data.",
+    "category": "coursework",
+    "technologies": ["Python", "TensorFlow", "Keras", "Pandas", "Seaborn"],
+    "features": [
+      "Engineered time-based, team, opponent, and recent-performance features from historical NBA odds data.",
+      "Built and compared dense neural-network, recurrent, and convolutional models for predicting moneyline, spread, totals, and scores.",
+      "Used exploratory analysis, normalization, early stopping, and hyperparameter search to evaluate model behavior and generalization."
+    ],
+    "supervisor": "",
+    "link": "",
+    "github": "https://github.com/Char1iee/NBA_Odds_Analysis",
+    "demo": "",
+    "caseStudy": "",
+    "image": "",
+    "date": ""
   }
 ]
